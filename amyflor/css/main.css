@@ -1,0 +1,354 @@
+/*FONT ONLY*/
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../font/opensans-webfont.woff2') format('woff2'),
+         url('../font/opensans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansserifflfmedium';
+    src: url('../font/sansserifflf-webfont.woff2') format('woff2'),
+         url('../font/sansserifflf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../font/opensans-light-webfont.woff2') format('woff2'),
+         url('../font/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../font/opensans-bold-webfont.woff2') format('woff2'),
+         url('../font/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*FONT ONLY*/
+
+
+/* Index */
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-cabecera{
+    height: 140px;
+    width: 100%;
+    /*background-color: red;*/
+}
+
+.cabecera{
+    margin: auto;
+    width: 88%;
+}
+
+.logo{
+    /*height: 98px;*/
+    /*width: 25%;*/
+   /* border: 1px solid black;*/
+    float: left;
+    padding: /*60px*/ 25px 2% 0 2%;
+}
+
+#contenedor-menu{
+    padding-top: 60px;
+}
+
+.menu{
+    font-family: 'open_sansbold';
+    font-size: 17px;
+    /*font-weight: bolder;*/
+    float: left;
+    margin: 0% 0% 3% 4%;
+    text-decoration: none;
+    color: #0c8a44;
+}
+
+.contendor-slider{
+    height: 346px;
+    width: 100%;
+    /*background-color: green;*/
+}
+
+
+.contenedor-textoen{
+    padding: 1% 0 0 8%;
+}
+
+h1, textoen-fondomin{
+    font-family: 'open_sansregular';
+    font-weight: 100;
+    color: white;
+    margin-bottom: 0;
+}
+
+
+.textoen-fondomin{
+    color: white;
+    font-family: 'open_sanslight';
+    padding-bottom: 20px;
+}
+
+.boton-animado{
+    font-family: open_sanslight;
+    width: 69px;
+    color: black;
+    padding: 15px 60px 15px 60px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 25px;
+}
+
+a, .boton-animado{
+    text-decoration: none;
+}
+
+
+
+.contenedor-articulos{
+    /*height: 100%;*/
+   /* background-color: burlywood;*/
+    overflow: hidden;
+}
+
+.contenedor-articulosofertas{
+    overflow: hidden;
+    width: 88%;
+    padding: 0 0% 0 8%;
+}
+
+.ofertas-prod{
+    font-family: 'open_sanslight';
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 64px;
+    padding-left: 20%;
+}
+
+.alineo{
+    /*font-weight: lighter;*/
+    text-rendering: optimizeLegibility;
+    margin-bottom: 0;
+    margin-top: 0;
+    float: left;
+    /*color: #0c8a44;*/
+}
+
+.linea{
+    float: left;
+    width: 8%;
+    height: 0%;
+    margin: 30px 3% 0 3%;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.ofertalinea{
+    float: left;
+    width: 18%;
+    height: 0%;
+    margin: 30px 4% 0 4%;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.info-compra{
+    font-family: 'open_sansregular';
+    color: grey;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.boton-precio{
+    font-family: 'open_sansregular';
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background: #911833;
+    /*float: left;*/
+    margin: 0 40px 30px 40px;
+    padding: 10px 0 10px 0;
+    color: white;
+    border-radius: 25px;
+    
+}
+
+.objeto{
+   height: 100%;
+    width: 20%;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin: 30px 2% 50px 2%;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: rgb(244, 244, 244) 0px 1px 10px;
+    
+}
+
+.relleno{
+    height: 100%;
+}
+
+.contenedor-grupoarticulos{
+    padding-right: 50px;
+}
+
+.back-animado{
+    /*height: 500px;*/
+    /*background-color: blueviolet;*/
+}
+
+h2, .texto-enfondo{
+     font-family: 'sansserifflfmedium';
+    /*font-weight: bold;*/
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.mas-ramos{
+    font-family: 'sansserifflfmedium';
+    font-size: 24px;
+    
+}
+
+.contenedor-piepag{
+    padding-top: 30px;
+    /*height: 200px;*/
+    /*background-color: black;*/
+    
+}
+
+.contenedor-general{
+    height: 280px;
+    border-bottom: 1px solid #e3e3e3;
+    border-top: 1px solid #e3e3e3;
+}
+
+.contenedor-categoria{
+    float: left;
+    border: 1px solid white;
+    margin: 0px 4% 0 7%;
+    width: 12%;
+}
+
+.imgflor{
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.imag-fondo{
+    background-image: url(../images/banner-header-.jpg);
+   background-size: 100%;
+     background-repeat: no-repeat;
+    height: 100%;
+}
+
+.imgfondo-animado{
+    background-image: url(../images/parallax-2050x1360.jpg);
+    background-size: 60%;
+     background-repeat: no-repeat;
+    height: 100%;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.titulo-negrita{
+    font-family: 'open_sansregular';
+    color: #0c8a44;
+    /*padding: 0 0 13px 0;*/
+}
+
+.footer-menu{
+    font-family: 'open_sansregular';
+    text-decoration: none;
+    color: black;
+    padding: 0px 0 10px 0; 
+}
+
+.end{
+    width: auto;
+    height: 70px;
+    padding: 10px 0 0 7%;
+}
+
+.creado-por{
+    font-family: 'open_sansregular';
+    color: gray;
+}
+
+.contenedor-social{
+    float: left;
+    padding: 0px 0px 0 20px;
+}
+
+.instasprite{background:url(../images/sprite_social.png) no-repeat 0 -0px;width: 23px;
+	height: 23px;}
+ .twitsprite{background:url(../images/sprite_social.png) no-repeat -32px -3px;width: 22px;
+	height: 18px; margin-top: 2px;}
+.facesprite{background:url(../images/sprite_social.png) no-repeat -70px -2px;width: 10px;
+	height: 20px;}
+.icono{margin-right: 10px; float: left; }
+
+
+
+
+/*php Amor*/
+
+.contendor-slideramor{
+    height: 246px;
+    width: 100%;
+    /*background-color: green;*/
+}
+
+.imag-fondoamor{
+    background-image: url(../images/banner-header-.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.ofertas-prod-amor{
+    font-family: 'open_sanslight';
+    text-align: center;
+    font-size: 2em;
+   
+    padding: 30px 0% 64px 120px;
+}
+
+.alineo-amor{
+    /*font-weight: lighter;*/
+    text-rendering: optimizeLegibility;
+    margin-bottom: 0;
+    margin-top: 0;
+    float: left;
+    /*color: #0c8a44;*/
+}
+
+.amorlinea{
+    float: left;
+    width: 18%;
+    height: 0%;
+    margin: 30px 4% 0 4%;
+    border-bottom: 1px solid #e3e3e3;
+}
